@@ -1,0 +1,1181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.first-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 70px;
+}
+
+.first-header i{
+    padding-left: 10px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    height: 15vh;
+}
+
+.main-header ul{
+    list-style: none;
+    display: flex;
+}
+
+.main-header li{
+    padding: 0 12px;
+}
+
+.main-header a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.main-header a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.main-header h2{
+    color: blue;
+    font-size: 40px;
+}
+
+.home-nav{
+    color: blue !important;
+}
+
+.dropdown-contents{
+    position: absolute;
+    background-color: white;
+    padding: 30px 0;
+    display: none;
+}
+
+.dropdown-contents p{
+   padding: 10px 20px;
+}
+
+.dropdown-contents p:hover{
+    background-color: rgb(192, 174, 174);
+}
+
+.dropdown:hover .dropdown-contents{
+    display: block;
+}
+
+.main-header button{
+    color: white;
+    background-color: blue;
+    padding: 10px 30px;
+    border: none;
+}
+
+.background-image{
+    background: linear-gradient(45deg, rgba(0, 0, 255, 0.685), rgba(0, 0, 255, 0.521)),url(./IMAGES/pexels-olia-danilevich-8093014.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image h5{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.background-image h2{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.search{
+    display: flex;
+}
+
+.search select{
+   background-color: white;
+   border: none;
+   padding: 20px 0;
+   outline: none;
+   padding-left: 25px;
+}
+
+.search input[type="search"]{
+    width: 400px;
+    padding: 0 30px;
+    outline: none;
+    padding: 19px;
+}
+
+.search button{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 20.7px 35px;
+}
+
+.griditems-1{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    justify-content: center;
+    padding: 120px 0;
+    grid-gap: 40px;
+}
+
+.griditems-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.griditems-1 h5{
+    color: red;
+    border-bottom: 2px dashed red;
+    padding-bottom: 5px;
+    width: fit-content;
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.griditems-1 h2{
+    font-size: 40px;
+    padding: 20px 0;
+    
+}
+
+.griditems-1 p{
+    padding-bottom: 20px;
+}
+
+.griditems-2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.subjects{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.courses{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.instructors{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.students{
+    background-color: yellow;
+    color: white;
+    text-align: center;
+}
+
+.grid-3-section{
+    background-color: mintcream;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.griditems-3{
+    display: grid;
+    grid-template-columns:50% 30%;
+    justify-content: center;
+    grid-gap: 40px;
+}
+
+.griditems-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.griditems-3 h5{
+   color: red;
+   border-bottom: 2px dashed red;
+   padding-bottom: 5px;
+   width: fit-content;
+   margin-bottom: 10px;
+}
+
+.griditems-3 h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.why-answer{
+    padding-top: 20px;
+}
+
+.why-contents{
+    display: flex;
+    padding-top: 40px;
+}
+
+.bi-mortarboard-fill{
+    font-size: 40px;
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+}
+
+.bi-patch-check{
+    font-size: 40px;
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+}
+
+.workspace-1{
+    font-size: 40px;
+    background-color: yellow;
+    color: white;
+    padding: 15px 20px;
+}
+
+.skilled, .international, .online{
+    padding-left: 25px;
+}
+
+.skilled h4, .international h4, .online h4{
+   font-size: 20px;
+   position: relative;
+   bottom: 15px;
+}
+
+.our-courses{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-courses h5{
+    color: red;
+    border-bottom: 2px dashed red;
+    padding-bottom: 5px;
+    width: fit-content;
+    text-align: center;
+}
+
+.our-courses h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: darkblue;
+    padding: 0 400px;
+    text-align: center;
+}
+
+.griditems-4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+.img-1{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.5)), url(./IMAGES/pexels-katerina-holmes-5905682.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.5)), url(./IMAGES/pexels-katerina-holmes-5905479.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.5)), url(./IMAGES/pexels-cottonbro-6157224.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-4{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.5)), url(./IMAGES/pexels-christina-morillo-1181248.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-1, .img-2, .img-3, .img-4{
+     color: white;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    
+}
+
+.img-1 h5, .img-2 h5, .img-3 h5, .img-4 h5{
+    font-size: 22px;
+    padding:0 25px;
+}
+
+.john-doe{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    position: relative;
+    top: 40px;
+    padding-top: 20px;
+}
+
+.sign-up-section{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.sign-up-form{
+    background-color: white;
+    width: 50%;
+    height: 70vh;
+}
+
+.sign-up-form h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 50px 100px;
+}
+
+.sign-up-grid-items{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+}
+.sign-up-grid-items input[type="text"], .sign-up-grid-items input[type="email"], .sign-up-grid-items select{
+    padding: 20px 10px;
+    width: 95%;
+    outline: none;
+    border: none;
+    background-color: bisque;
+    margin-bottom: 15px;
+
+}
+
+.sign-up-grid-items button{
+    padding: 20px 0;
+    width: 95%;
+    color: white;
+    background-color: rgb(96, 96, 243);
+    border: none;
+    transition: 0.5s;
+}
+
+.sign-up-grid-items button:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+.meet{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 0;
+}
+
+.meet h5{
+    color: red;
+    border-bottom: 2px dashed red;
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.meet h2{
+    font-size: 60px;
+}
+
+
+.griditems-5{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.griditems-5 h5{
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.griditems-5 p{
+    padding: 10px 0;
+}
+
+.instructor-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: bisque;
+}
+
+.instructor-social i{
+    color: blue;
+    padding: 0 6px;
+}
+
+.icons{
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.griditems-5 img{
+    width: 100%;
+}
+
+.grid-6-section{
+    background-color: mintcream;
+}
+
+.griditems-6{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    grid-gap: 50px;
+    height: 100vh;
+    padding: 90px 0;
+    margin: 100px 0;
+    justify-content: center;
+}
+
+.griditems-6 h4{
+    color: red;
+    border-bottom: 2px dashed red;
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+.griditems-6 h2{
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.griditems-6 p{
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.review{
+    background-color: white;
+    padding-left: 50px;
+   
+}
+
+.caret{
+    display: flex;
+    justify-content: end;
+}
+
+.caret .bi-caret-left-fill{
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.caret .bi-caret-right-fill{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.bi-quote{
+      color: blue;
+      font-size: 70px;
+}
+
+.review p{
+    padding-right: 100px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.review img{
+    width: 150px;
+    padding-right: 20px;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+}
+
+.griditems-7{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    justify-content: center;
+    padding: 70px 0;
+    grid-gap: 40px;
+}
+
+.grid-7-auto{
+    background-color: mintcream;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.contact{
+    display: flex;
+    padding-bottom: 60px;
+    
+}
+
+.contact .bi-geo-alt-fill{
+  color: white;
+  background-color: blue;
+  font-size: 30px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.contact .bi-telephone-fill{
+    color: white;
+    background-color: red;
+    font-size: 30px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.contact .bi-envelope{
+    color: white;
+    background-color: yellow;
+    font-size: 30px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.griditems-7 h4{
+    color: red;
+    border-bottom: 2px dashed red;
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+.griditems-7 h2{
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px 0;
+}
+
+.your-name, .form-grid input[type="email"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 90%;
+    padding: 7px 0;
+}
+
+.subject{
+    width: 189%;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 7px 0;
+}
+.griditems-7 textarea{
+    width: 95%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+.griditems-7 button{
+    color: white;
+    background-color: rgb(96, 96, 243);
+    border: none;
+    padding: 20px 50px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.griditems-7 button:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.footer{
+    background-color: rgb(4, 4, 53);
+    color: white;
+    margin-top: 70px;
+}
+
+.griditems-8{
+    display: grid;
+    grid-template-columns: 35% 40%;
+    justify-content: center;
+    grid-gap: 30px;
+    padding-bottom: 70px
+}
+
+.footer h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.input-email{
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.footer input[type="email"]{
+   padding: 20px 30px;
+   width: 80%;
+   margin-top: 20px;
+   outline: none;
+}
+
+.footer button{
+    padding: 20px 25px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.griditems-9{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    grid-gap: 110px;
+    padding-bottom: 100px;
+    
+}
+
+.griditems-9 h3{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.li{
+    padding: 10px 0;
+}
+
+.li a{
+    color: white;
+}
+
+.li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.li-icons{
+    padding: 10px 0;
+}
+
+.li-icons i{
+    font-size: 30px;
+    padding: 0 10px;
+    color: white;
+    
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer-2{
+    background-color:  rgb(4, 4, 53) ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 30px 0;
+    border-top: 1px solid white;
+}
+
+/* media queries */
+
+@media screen and (max-width:1024px){
+    .background-image h5{
+        font-size: 30px;
+    }
+
+    .background-image h2{
+        font-size: 70px;
+    }
+
+   .griditems-1{
+    padding: 70px 0;
+
+   }
+
+    .griditems-1 h2{
+        font-size: 30px;
+    }
+
+    .griditems-1 p{
+        font-size: 15px;
+    }
+
+    .griditems-2 h2{
+      font-size: 20px;
+    }
+
+    .griditems-2 p{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .griditems-1{
+        margin-bottom: 70px;
+    }
+
+    .grid-3-section{
+        height: fit-content;
+        padding: 10px 0;
+    }
+
+    .griditems-3 h5{
+        padding-top: 10px;
+    }
+
+    .griditems-3 p{
+        font-size: 15px;
+    }
+
+    .griditems-3 h2{
+        font-size: 40px;
+    }
+
+    .bi-mortarboard-fill, .bi-patch-check, .workspace-1{
+          font-size:30px;
+          padding: 10px 15px;
+    }
+
+    .griditems-3 h4{
+        font-size: 15px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .why-contents p{
+        font-size: 10px;
+    }
+
+    .why-answer{
+        padding-top: 0;
+    }
+
+    .griditems-3 img{
+        height: 100%;
+}
+
+.our-courses{
+    padding-top: 50px;
+}
+
+.our-courses h2{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.griditems-4 h5{
+    font-size: 16px;
+}
+
+.john-doe{
+    position: relative;
+    top: 20px;
+}
+
+.sign-up-form h2{
+    font-size: 30px;
+    padding: 20px 100px;
+}
+
+.meet h2{
+    font-size: 40px;
+}
+
+.griditems-6{
+    height: fit-content;
+}
+
+}
+
+@media screen and (max-width:768px){
+    .main-header h2{
+        font-size: 20px;
+    }
+
+    .main-header li{
+        padding: 0 5px;
+    }
+
+    .background-image h2{
+           font-size: 50px;
+           padding-bottom: 30px;
+    }
+
+    .search select{
+        padding:15px 0;
+    }
+
+    .search input[type="search"]{
+        padding: 15px;
+    }
+
+    .search button{
+        padding: 16px;
+    }
+
+    .griditems-1{
+        display: grid;
+        grid-template-columns: 40% 50%;
+        grid-gap: 10px;
+        padding: 50px 0;
+    }
+
+    .griditems-2 h2{
+        padding: 4px;
+    }
+
+    .griditems-3{
+        display: grid;
+        grid-template-columns: 50% 40%;
+    }
+
+    .griditems-3 h2{
+        font-size: 25px;
+    }
+
+    .griditems-3 img{
+        height: 100%;
+    }
+
+    .our-courses h2{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .griditems-4{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: center;
+        grid-gap: 20px;
+    }
+
+    .sign-up-form h2{
+        font-size: 20px;
+    }
+    .meet h5{
+        font-size: 15px;
+    }
+
+    .meet h2{
+        font-size: 25px;
+    }
+
+    .griditems-5 p{
+        font-size: 14px;
+    }
+
+    .griditems-6{
+        grid-gap: 20px;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    .griditems-6 h4{
+        font-size: 12px;
+    }
+
+    .griditems-6 h2{
+        font-size: 25px;
+    }
+
+    .griditems-6 p{
+        font-size: 15px;
+    }
+
+    .review p{
+        padding: 0;
+    }
+
+    .caret .bi-caret-left-fill, .caret .bi-caret-right-fill{
+        padding: 15px;
+    }
+
+    .bi-quote{
+        font-size: 30px;
+    }
+
+    .griditems-7{
+        grid-gap: 20px;
+    }
+
+    .grid-7-auto{
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .griditems-7 p{
+        font-size: 13px;
+    }
+
+    .contact .bi-geo-alt-fill, .contact .bi-telephone-fill, .contact .bi-envelope{
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .griditems-7 h4{
+        font-size: 15px;
+    }
+
+    .griditems-7 h2{
+        font-size: 25px;
+    }
+
+    .griditems-8 h2{
+        padding-top: 50px;
+    }
+
+    .input-email{
+        padding-top: 50px;
+    }
+
+    .li{
+        font-size: 15px;
+    }
+
+    .griditems-9{
+        display: grid;
+        grid-template-columns: 30% 20% 30%;
+        grid-gap: 30px;
+        padding-bottom: 50px;
+    }
+
+    .li-icons{
+        font-size: 5px;
+    }
+
+    .footer{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:425px){
+    .first-header{
+        padding: 10px 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .main-header{
+        display: block;
+        height: fit-content;
+        padding: 0 9px;
+    }
+
+    .main-header h2{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .main-header ul{
+        position: relative;
+        top: 15px;
+    }
+
+    .main-header button{
+        position: relative;
+        padding: 10px;
+        left: 21rem;
+        bottom: 1.2rem;
+    }
+
+    .background-image{
+        height: fit-content;
+        padding: 80px 0;
+        background-size: cover;
+        background-position: center;
+       
+    }
+
+    .search input[type="search"]{
+        padding: 15px;
+        width: 100%;
+    }
+ 
+    .griditems-1{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .griditems-3{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .bi-mortarboard-fill, .bi-patch-check, .workspace-1{
+        position: relative;
+        top: 10px;
+    }
+
+    .griditems-4{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .sign-up-section{
+        height: fit-content;
+        padding: 0;
+        
+    }
+    
+.sign-up-form{
+    width: 90%;
+    height: fit-content;
+    padding: 20px;
+}
+
+    .sign-up-form h2{
+        padding: 10px;
+    }
+    
+    .sign-up-grid-items{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .sign-up-section{
+        height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    .griditems-5{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .griditems-6{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .griditems-7{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .griditems-8{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .griditems-9{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-gap: 10px;
+    }
+
+    .li-icons .bi-twitter, .li-icons .bi-facebook, .li-icons .bi-instagram, .li-icons .bi-linkedin{
+        font-size: 14px;
+    }
+
+  .footer-2 p{
+    font-size: 11px;
+  }
+
+  .footer-2{
+    display: block !important;
+    text-align: center;
+}
+}
+
+@media screen and (max-width:375px) {
+    
+    .main-header button{
+        position: relative;
+        padding: 10px;
+        left: 17.8rem;
+        bottom: 3.5rem;
+    }
+    
+    .main-header ul{
+        position: relative;
+        left: 10px;
+    }
+
+    .footer h3{
+        font-size: 20px;
+    }
+
+    .griditems-9{
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .main-header button{
+        position: relative;
+        padding: 10px;
+        left: 14.5rem;
+        bottom: 4.7rem;
+    }
+
+    .main-header li{
+       position: relative;
+       right: 18px;
+    }
+
+    .search input[type="search"]{
+        width: 120px;
+    }
+
+    .review img{
+        width: 90px; 
+    }
+
+    .review h3{
+        font-size: 15px;
+    }
+
+    
+}
